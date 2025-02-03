@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 
 import ProductCard from "./ProductCard";
 import { Product } from "@/pages/types";
+import Image from "next/image";
 
 const Menu = () => {
     const [products, setProducts] = useState<Product[]>([]);
@@ -98,7 +99,7 @@ const Menu = () => {
                                                 key={index}
                                                 className="flex items-center justify-between mb-4 transition-transform duration-300 ease-in-out"
                                             >
-                                                <img
+                                                <Image
                                                     src={product.image}
                                                     alt={product.name}
                                                     className="w-20 h-20 sm:w-24 sm:h-24 rounded"/>

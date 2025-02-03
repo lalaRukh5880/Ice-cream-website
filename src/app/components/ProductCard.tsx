@@ -1,4 +1,5 @@
 import { Product } from "@/pages/types";
+import Image from "next/image";
 import React from "react";
 
 interface ProductCardProps extends Product {
@@ -15,7 +16,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
   return (
     <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">
       {/* Product Image */}
-      <img
+      <Image
         src={image}
         alt={name}
         className="w-full h-56 object-cover rounded-md mb-4 transform transition-all duration-300 ease-in-out hover:scale-110"

@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 
@@ -5,7 +6,7 @@ const Banner = () => {
   return (
     <div className='relative overflow-hidden bg-gradient-to-r from-pink-500 to grey-700 font-sans px-6 py-12 mb-7'>
       <div className='absolute inset-0 opacity-30'>
-        <img src='/banner.png'
+        <Image src='/banner.png'
           alt='icecream ' className='w-full max-h-full object-cover' />
       </div>
       <div className='relative z-10 container mx-auto flex flex-col justify-between items-center text-center'>
