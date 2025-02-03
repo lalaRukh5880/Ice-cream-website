@@ -35,7 +35,7 @@ export default function IceCream() {
         <div key={product.id} className={`flex flex-col items-center ${product.bgColor} rounded-lg shadow-lg p-4 w-64`}>
           {/* Image Section */}
           <div className="relative flex items-center justify-center">
-            <Image className="relative w-40 h-40 object-contain" src={product.imageUrl} alt={product.title} />
+            <Image width={500} height={500} className="relative w-40 h-40 object-contain" src={product.imageUrl} alt={product.title} />
           </div>
           {/* Text Section */}
           <div className="text-black px-4 mt-4">

@@ -15,6 +15,7 @@ export default function Hero() {
                 className="group relative flex flex-col overflow-hidden rounded-lg h-full"
               >
                 <Image
+  width={500} height={500}
                   src="https://i0.wp.com/paradisicecream.com/wp-content/uploads/2022/10/our-menu-home-1.webp?fit=400%2C400&ssl=1"
                   alt="Chocolate ice cream"
                   className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
@@ -33,6 +34,7 @@ export default function Hero() {
                 className="group relative flex flex-col overflow-hidden rounded-lg h-64"
               >
                 <Image
+                width={500} height={500}
                   src="https://img.freepik.com/free-photo/ice-cream-gray-background_179068-1041.jpg?size=626&ext=jpg"
                   alt="Ice cream"
                   className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
@@ -50,6 +52,7 @@ export default function Hero() {
                   className="group relative flex flex-col overflow-hidden rounded-lg h-40"
                 >
                   <Image
+                  width={500} height={500}
                     src="https://img.freepik.com/premium-photo/strawberry-ice-cream-cone-pink-background_171081-2550.jpg"
                     alt="Strawberry ice cream"
                     className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
@@ -65,7 +68,8 @@ export default function Hero() {
                   className="group relative flex flex-col overflow-hidden rounded-lg h-40"
                 >
                   <Image
-                    src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/ice-cream-cone-on-pink-background-kevinruss.jpg"
+                  width={500} height={500}
+                    src="https://img.freepik.com/premium-photo/strawberry-ice-cream-cone-pink-background_171081-2550.jpg"
                     alt="Strawberry ice cream"
                     className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
                   />
@@ -84,6 +88,7 @@ export default function Hero() {
                 className="group relative flex flex-col overflow-hidden rounded-lg h-full"
               >
                 <Image
+                width={500} height={500}
                   src="https://i0.wp.com/northogdenconnection.com/wp-content/uploads/2020/06/AdobeStock_267330679.jpeg?w=2169&ssl=1"
                   alt="Strawberry ice cream"
                   className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"

@@ -6,8 +6,7 @@ const Banner = () => {
   return (
     <div className='relative overflow-hidden bg-gradient-to-r from-pink-500 to grey-700 font-sans px-6 py-12 mb-7'>
       <div className='absolute inset-0 opacity-30'>
-        <Image src='/banner.png'
-          alt='icecream ' className='w-full max-h-full object-cover' />
+        <Image src='/banner.png' width={500} height={500} alt='icecream ' className='w-full max-h-full object-cover' />
       </div>
       <div className='relative z-10 container mx-auto flex flex-col justify-between items-center text-center'>
         <h3 className='text-black sm:text-5xl font-bold mb-4 '>
