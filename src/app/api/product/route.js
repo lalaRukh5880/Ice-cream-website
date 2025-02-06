@@ -1,4 +1,5 @@
-export default function handler(req, res) {
+import { NextResponse } from "next/server";
+
     const products = [
         {
             id: 1,
@@ -63,5 +64,6 @@ export default function handler(req, res) {
 
     ];
 
-    res.status(200).json(products);
+export function GET(){
+    return NextResponse.json(products)
 }
